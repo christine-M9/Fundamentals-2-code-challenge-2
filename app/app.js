@@ -10,4 +10,11 @@ const bills = [125, 555, 44];
 let tip1 = calcTip(bills[0]);
 let tip2 = calcTip(bills[1]);
 let tip3 = calcTip(bills[2]);
+// array tip containing tip value for each bill
+let tips = [tip1, tip2, tip3];
+//  totals tip + bills
+let totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
+console.log('Bills:', bills);
+console.log('Tips:', tips);
+console.log('Totals:', totals);
