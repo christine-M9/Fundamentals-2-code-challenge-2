@@ -5,5 +5,5 @@ function calcTip(bill) {
 
 console.log(calcTip(555)); 
 
-
+const bills = [125, 555, 44];
 
